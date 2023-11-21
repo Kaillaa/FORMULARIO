@@ -1,0 +1,46 @@
+body{
+    background-image: url(../FORMULARIO/img/painting-3995999_1280.webp);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section{
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: grey;
+    border-radius: 10px;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    font-size: 20px;
+    color: aliceblue;
+    height: 250px;
+    width: 400px;
+}
+
+input{
+    border-style: none;
+    outline-color: white;
+    margin: 5px 0;
+    padding: 8px;
+}
+
+.submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    background-color: black;
+    color: #fff;
+    margin: 20px;
+    margin-left: 50px;
+    border-radius: 7px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    border: 2px solid black;
+}
